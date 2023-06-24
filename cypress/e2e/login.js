@@ -14,6 +14,7 @@ When('user enter valid credentials', ()=>{
 Then('user should be able to login', ()=>{
     cy.get('.title').should('be.visible')
     cy.log("this is the third change i am making")
+    cy.log("this is stash pratice line")
 })
 
 Given('user is at home page', ()=>{
