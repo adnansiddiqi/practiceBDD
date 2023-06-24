@@ -13,6 +13,7 @@ When('user enter valid credentials', ()=>{
 
 Then('user should be able to login', ()=>{
     cy.get('.title').should('be.visible')
+    cy.log("this is the third change i am making")
 })
 
 Given('user is at home page', ()=>{
