@@ -11,6 +11,8 @@ Given('user select to buy backpack', ()=>{
     landingpage.getPassword("secret_sauce")
     landingpage.clickLoginBtn()
     product.chooseBackPack()
+    cy.log("this is from RMS123 branch")
+    cy.log("this is the second change i am making")
 
 })
 when('user enters shopping details', ()=>{
